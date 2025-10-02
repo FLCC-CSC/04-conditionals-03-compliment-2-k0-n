@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Josh Fielding
+# DATE: 10/2/25
+# BRIEF DESCRIPTION: Continuation of compliment - customize output for not yes too
 
 
 
@@ -15,13 +15,17 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+# ask the user if they would like a compliment, get input
+user_input = input("Would you like a compliment?: ")
 
+# if the users input equals to 'yes', print a compliment, and if not a 'yes', the user doesn't get a compliment
+if (user_input == 'yes'):
+    print('You have wonderful eyes.')
+else: 
+    print('No compliment for you!')
 
-
-
-
-
-
+# print a goodbye message
+print('Thank you for playing.')
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
@@ -71,7 +75,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+No
 
 
 
